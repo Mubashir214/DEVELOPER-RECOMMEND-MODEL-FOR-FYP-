@@ -6,8 +6,8 @@ import joblib
 # -----------------------------
 # Load Model & Label Encoders
 # -----------------------------
-model = joblib.load("deployment_files/dev_recommender_model.pkl")
-label_encoders = joblib.load("deployment_files/label_encoders.pkl")
+model = joblib.load("dev_recommender_model.pkl")
+label_encoders = joblib.load("label_encoders.pkl")
 
 # -----------------------------
 # Prediction Function with Rules
